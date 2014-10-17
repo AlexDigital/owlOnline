@@ -1,0 +1,6 @@
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\bin\owlOnline.dll
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\bin\owlOnline.pdb
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\obj\Debug\owlOnline.dll
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\obj\Debug\owlOnline.pdb
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\bin\TidyNet.dll
+c:\users\alex\documents\visual studio 2010\Projects\owlOnline\owlOnline\obj\Debug\owlOnline.csprojResolveAssemblyReference.cache

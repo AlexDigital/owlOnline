@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{787028DA-6B71-4CF3-A749-693FEC1A4EC5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>owlOnline</RootNamespace>
+    <AssemblyName>owlOnline</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TidyNet">
+      <HintPath>..\..\..\..\..\Downloads\owl-master\owl-master\bin\Debug\TidyNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\cover.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="lib\codemirror.css" />
+    <Content Include="lib\codemirror.js" />
+    <Content Include="mode\apl\apl.js" />
+    <Content Include="mode\apl\index.html" />
+    <Content Include="mode\asterisk\asterisk.js" />
+    <Content Include="mode\asterisk\index.html" />
+    <Content Include="mode\clike\clike.js" />
+    <Content Include="mode\clike\index.html" />
+    <Content Include="mode\clike\scala.html" />
+    <Content Include="mode\clojure\clojure.js" />
+    <Content Include="mode\clojure\index.html" />
+    <Content Include="mode\cobol\cobol.js" />
+    <Content Include="mode\cobol\index.html" />
+    <Content Include="mode\coffeescript\coffeescript.js" />
+    <Content Include="mode\coffeescript\index.html" />
+    <Content Include="mode\commonlisp\commonlisp.js" />
+    <Content Include="mode\commonlisp\index.html" />
+    <Content Include="mode\css\css.js" />
+    <Content Include="mode\css\index.html" />
+    <Content Include="mode\css\less.html" />
+    <Content Include="mode\css\less_test.js" />
+    <Content Include="mode\css\scss.html" />
+    <Content Include="mode\css\scss_test.js" />
+    <Content Include="mode\css\test.js" />
+    <Content Include="mode\cypher\cypher.js" />
+    <Content Include="mode\cypher\index.html" />
+    <Content Include="mode\diff\diff.js" />
+    <Content Include="mode\diff\index.html" />
+    <Content Include="mode\django\django.js" />
+    <Content Include="mode\django\index.html" />
+    <Content Include="mode\dtd\dtd.js" />
+    <Content Include="mode\dtd\index.html" />
+    <Content Include="mode\dylan\dylan.js" />
+    <Content Include="mode\dylan\index.html" />
+    <Content Include="mode\d\d.js" />
+    <Content Include="mode\d\index.html" />
+    <Content Include="mode\ecl\ecl.js" />
+    <Content Include="mode\ecl\index.html" />
+    <Content Include="mode\eiffel\eiffel.js" />
+    <Content Include="mode\eiffel\index.html" />
+    <Content Include="mode\erlang\erlang.js" />
+    <Content Include="mode\erlang\index.html" />
+    <Content Include="mode\fortran\fortran.js" />
+    <Content Include="mode\fortran\index.html" />
+    <Content Include="mode\gas\gas.js" />
+    <Content Include="mode\gas\index.html" />
+    <Content Include="mode\gfm\gfm.js" />
+    <Content Include="mode\gfm\index.html" />
+    <Content Include="mode\gfm\test.js" />
+    <Content Include="mode\gherkin\gherkin.js" />
+    <Content Include="mode\gherkin\index.html" />
+    <Content Include="mode\go\go.js" />
+    <Content Include="mode\go\index.html" />
+    <Content Include="mode\groovy\groovy.js" />
+    <Content Include="mode\groovy\index.html" />
+    <Content Include="mode\haml\haml.js" />
+    <Content Include="mode\haml\index.html" />
+    <Content Include="mode\haml\test.js" />
+    <Content Include="mode\haskell\haskell.js" />
+    <Content Include="mode\haskell\index.html" />
+    <Content Include="mode\haxe\haxe.js" />
+    <Content Include="mode\haxe\index.html" />
+    <Content Include="mode\htmlembedded\htmlembedded.js" />
+    <Content Include="mode\htmlembedded\index.html" />
+    <Content Include="mode\htmlmixed\htmlmixed.js" />
+    <Content Include="mode\htmlmixed\index.html" />
+    <Content Include="mode\http\http.js" />
+    <Content Include="mode\http\index.html" />
+    <Content Include="mode\index.html" />
+    <Content Include="mode\jade\index.html" />
+    <Content Include="mode\jade\jade.js" />
+    <Content Include="mode\javascript\index.html" />
+    <Content Include="mode\javascript\javascript.js" />
+    <Content Include="mode\javascript\json-ld.html" />
+    <Content Include="mode\javascript\test.js" />
+    <Content Include="mode\javascript\typescript.html" />
+    <Content Include="mode\jinja2\index.html" />
+    <Content Include="mode\jinja2\jinja2.js" />
+    <Content Include="mode\julia\index.html" />
+    <Content Include="mode\julia\julia.js" />
+    <Content Include="mode\kotlin\index.html" />
+    <Content Include="mode\kotlin\kotlin.js" />
+    <Content Include="mode\livescript\index.html" />
+    <Content Include="mode\livescript\livescript.js" />
+    <Content Include="mode\lua\index.html" />
+    <Content Include="mode\lua\lua.js" />
+    <Content Include="mode\markdown\index.html" />
+    <Content Include="mode\markdown\markdown.js" />
+    <Content Include="mode\markdown\test.js" />
+    <Content Include="mode\meta.js" />
+    <Content Include="mode\mirc\index.html" />
+    <Content Include="mode\mirc\mirc.js" />
+    <Content Include="mode\mllike\index.html" />
+    <Content Include="mode\mllike\mllike.js" />
+    <Content Include="mode\modelica\index.html" />
+    <Content Include="mode\modelica\modelica.js" />
+    <Content Include="mode\nginx\index.html" />
+    <Content Include="mode\nginx\nginx.js" />
+    <Content Include="mode\ntriples\index.html" />
+    <Content Include="mode\ntriples\ntriples.js" />
+    <Content Include="mode\octave\index.html" />
+    <Content Include="mode\octave\octave.js" />
+    <Content Include="mode\pascal\index.html" />
+    <Content Include="mode\pascal\pascal.js" />
+    <Content Include="mode\pegjs\index.html" />
+    <Content Include="mode\pegjs\pegjs.js" />
+    <Content Include="mode\perl\index.html" />
+    <Content Include="mode\perl\perl.js" />
+    <Content Include="mode\php\index.html" />
+    <Content Include="mode\php\php.js" />
+    <Content Include="mode\php\test.js" />
+    <Content Include="mode\pig\index.html" />
+    <Content Include="mode\pig\pig.js" />
+    <Content Include="mode\properties\index.html" />
+    <Content Include="mode\properties\properties.js" />
+    <Content Include="mode\puppet\index.html" />
+    <Content Include="mode\puppet\puppet.js" />
+    <Content Include="mode\python\index.html" />
+    <Content Include="mode\python\python.js" />
+    <Content Include="mode\q\index.html" />
+    <Content Include="mode\q\q.js" />
+    <Content Include="mode\rpm\changes\index.html" />
+    <Content Include="mode\rpm\index.html" />
+    <Content Include="mode\rpm\rpm.js" />
+    <Content Include="mode\rst\index.html" />
+    <Content Include="mode\rst\rst.js" />
+    <Content Include="mode\ruby\index.html" />
+    <Content Include="mode\ruby\ruby.js" />
+    <Content Include="mode\ruby\test.js" />
+    <Content Include="mode\rust\index.html" />
+    <Content Include="mode\rust\rust.js" />
+    <Content Include="mode\r\index.html" />
+    <Content Include="mode\r\r.js" />
+    <Content Include="mode\sass\index.html" />
+    <Content Include="mode\sass\sass.js" />
+    <Content Include="mode\scheme\index.html" />
+    <Content Include="mode\scheme\scheme.js" />
+    <Content Include="mode\shell\index.html" />
+    <Content Include="mode\shell\shell.js" />
+    <Content Include="mode\shell\test.js" />
+    <Content Include="mode\sieve\index.html" />
+    <Content Include="mode\sieve\sieve.js" />
+    <Content Include="mode\slim\index.html" />
+    <Content Include="mode\slim\slim.js" />
+    <Content Include="mode\slim\test.js" />
+    <Content Include="mode\smalltalk\index.html" />
+    <Content Include="mode\smalltalk\smalltalk.js" />
+    <Content Include="mode\smartymixed\index.html" />
+    <Content Include="mode\smartymixed\smartymixed.js" />
+    <Content Include="mode\smarty\index.html" />
+    <Content Include="mode\smarty\smarty.js" />
+    <Content Include="mode\solr\index.html" />
+    <Content Include="mode\solr\solr.js" />
+    <Content Include="mode\sparql\index.html" />
+    <Content Include="mode\sparql\sparql.js" />
+    <Content Include="mode\sql\index.html" />
+    <Content Include="mode\sql\sql.js" />
+    <Content Include="mode\stex\index.html" />
+    <Content Include="mode\stex\stex.js" />
+    <Content Include="mode\stex\test.js" />
+    <Content Include="mode\tcl\index.html" />
+    <Content Include="mode\tcl\tcl.js" />
+    <Content Include="mode\tiddlywiki\index.html" />
+    <Content Include="mode\tiddlywiki\tiddlywiki.css" />
+    <Content Include="mode\tiddlywiki\tiddlywiki.js" />
+    <Content Include="mode\tiki\index.html" />
+    <Content Include="mode\tiki\tiki.css" />
+    <Content Include="mode\tiki\tiki.js" />
+    <Content Include="mode\toml\index.html" />
+    <Content Include="mode\toml\toml.js" />
+    <Content Include="mode\turtle\index.html" />
+    <Content Include="mode\turtle\turtle.js" />
+    <Content Include="mode\vbscript\index.html" />
+    <Content Include="mode\vbscript\vbscript.js" />
+    <Content Include="mode\vb\index.html" />
+    <Content Include="mode\vb\vb.js" />
+    <Content Include="mode\velocity\index.html" />
+    <Content Include="mode\velocity\velocity.js" />
+    <Content Include="mode\verilog\index.html" />
+    <Content Include="mode\verilog\test.js" />
+    <Content Include="mode\verilog\verilog.js" />
+    <Content Include="mode\xml\index.html" />
+    <Content Include="mode\xml\test.js" />
+    <Content Include="mode\xml\xml.js" />
+    <Content Include="mode\xquery\index.html" />
+    <Content Include="mode\xquery\test.js" />
+    <Content Include="mode\xquery\xquery.js" />
+    <Content Include="mode\yaml\index.html" />
+    <Content Include="mode\yaml\yaml.js" />
+    <Content Include="mode\z80\index.html" />
+    <Content Include="mode\z80\z80.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Beautifier.cs" />
+    <Compile Include="CodeGen.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Lexer.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Token.cs" />
+    <Compile Include="Tokens\TokenAssign.cs" />
+    <Compile Include="Tokens\TokenBracketClosing.cs" />
+    <Compile Include="Tokens\TokenBracketOpening.cs" />
+    <Compile Include="Tokens\TokenComma.cs" />
+    <Compile Include="Tokens\TokenContent.cs" />
+    <Compile Include="Tokens\TokenCurlyClosing.cs" />
+    <Compile Include="Tokens\TokenCurlyOpening.cs" />
+    <Compile Include="Tokens\TokenEOF.cs" />
+    <Compile Include="Tokens\TokenEOL.cs" />
+    <Compile Include="Tokens\TokenEscape.cs" />
+    <Compile Include="Tokens\TokenIdentifier.cs" />
+    <Compile Include="Tokens\TokenParClosing.cs" />
+    <Compile Include="Tokens\TokenParOpening.cs" />
+    <Compile Include="Tokens\TokenSemicolon.cs" />
+    <Compile Include="Tokens\TokenString.cs" />
+    <Compile Include="Tokens\TokenStyleBlock.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Verbosity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50623</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
