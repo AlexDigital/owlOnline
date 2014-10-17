@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\cover.css" />
+    <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="lib\codemirror.css" />
     <Content Include="lib\codemirror.js" />
@@ -246,6 +247,7 @@
     <Content Include="mode\yaml\yaml.js" />
     <Content Include="mode\z80\index.html" />
     <Content Include="mode\z80\z80.js" />
+    <Content Include="Scripts\editor.js" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />

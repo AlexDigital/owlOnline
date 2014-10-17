@@ -12,46 +12,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <style type="text/css">
-        .content 
-        {
-            margin-right: 10px;
-            margin-left: 10px;
-        }
-        #Textarea1, #Textarea2
-        {
-            height: 300px;
-            width: 100%;
-        }
-        .ui-resizable-helper {
-            border: 1px dotted gray;
-        }
-        .iframe {
-            display: block;
-            width: 100%;
-            height: 600px;
-            padding: 30px;
-            border: 2px solid gray;
-            overflow: hidden;
-            position: relative;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-        }
-        #result 
-        {
-            display: none;
-    </style>
-
-    <link rel="stylesheet" href="lib/codemirror.css"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="lib/codemirror.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <script src="lib/codemirror.js" type = "text/javascript"></script>
     <script src="mode/xml/xml.js"></script>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 </head>
+
 <body style="background-color:#eee;">
     <div class="content">
     <nav class="navbar navbar-default" role="navigation">
@@ -92,31 +60,9 @@
     </div>
     </div>
 
-    <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById("TextBox1"), {
-            mode: "text/plain",
-            lineNumbers: true,
-            tabMode: "indent",
-            gutter: true,
-            matchBrackets: true
-        });
+    <script src="Scripts/editor.js"></script>
 
-        var editor = CodeMirror.fromTextArea(document.getElementById("TextBox2"), {
-            mode: "text/xml",
-            lineNumbers: true,
-            tabMode: "indent",
-            gutter: true,
-            matchBrackets: true
-        });
-
-        $(function () {
-            $(".resizable").resizable({
-                animate: true,
-                animateEasing: 'swing',
-                imateDuration: 500
-            });
-        });
-    </script>    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 
 </body>
 </html>
